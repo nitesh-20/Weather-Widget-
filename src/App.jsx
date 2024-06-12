@@ -1,12 +1,10 @@
 import React from 'react'
-import SearchBox from './SearchBox'
-import InfoBox from './InfoBox'
+import WeatherApp from './WeatherApp'
 
 const App = () => {
   return (
     <div>
-      <SearchBox/>
-      <InfoBox/>
+      <WeatherApp/>
     </div>
   )
 }
